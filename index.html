@@ -28,7 +28,32 @@
         <h2>Заинтересовались?</h2>
           <p class="bookig-info">Укажите предпологаемые даты поездки, и мы покажем вам
             лучшие предложение гостинец в Седоне</p>
-          </section>
+      </section>
+      <section class="search">
+        <h2 class="visually-hidden"> Поиск гостиницы</h2>
+          <p class="serach-info"> Поиск гостиницы в Седоне
+          </p>
+          <form class="search-form" method="post"
+          action="https://echo.htmlacademy.ru">
+            <p class="arrival-info">
+              <label for="arrival-date">Дата заезда</label>
+              <input id="arrival-date" type="date" name="arrival" value="">
+            </p>
+            <p class="departure-info">
+              <label for="departure-date">Дата выезда</label>
+              <input id="departure-date" type="date" name="departure" value="">
+            </p>
+            <p class="adults-info">
+              <label for="adults-date">Взрослые</label>
+              <input id="adults-date" type="number" min="1" max="100" step="1" name="departure" value="">
+            </p>
+            <p class="children-info">
+              <label for="children-date">Дети</label>
+              <input id="children-date" type="number" min="1" max="100" step="1" name="departure" value="">
+            </p>
+            <button class="button" type="submit"> Искать </button>
+          </form>
+      </section>
     </main>
     <footer class="main-footer">
       <p class="footer-contacts">
