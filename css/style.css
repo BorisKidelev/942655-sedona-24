@@ -116,14 +116,15 @@ opacity: 0.3;
   font-stretch: normal;
   line-height: 1.86;
   color: #333333;
-  display:flex;
   background: white;
+  text-align: center;
 }
 .advantage-list {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+  list-style: none
 }
 .advantage-list-item.advantage-list-item-full {
   display: flex;
@@ -143,21 +144,32 @@ opacity: 0.3;
   color: #ffffff;
   background-color: #81b3d2;
 }
+.advantage-list-item.advatage-block {
+  background-color:#eeeeee; 
+}
 .advantage-block-title {
   font-size: 21px;
   text-align: center;
+  font-weight: bold;
   line-height: 21px;
   padding-top: 46px;
   padding-left: 60px;
   padding-right: 60px;
   margin: 0;
 }
+.advantage-block-title-more {
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 21px;
+  margin: 29px; 
+}
 .advantage-block-number {
   text-align: center;
   font-size: 14px;
   line-height: 21px;
   padding-top: 0;
-  margin: 0;
+  margin: 25px;
 }
 .advantage-block-text {
   font-size: 14px;
@@ -178,12 +190,18 @@ opacity: 0.3;
   text-align: center; 
   margin: 0;
   padding: 0;
+  list-style: none
 }
 .more-advantages-item {
   width: 400px;
   height: 330px;
   margin: 0;
   padding: 0;
+}
+.advantage-block-img {
+  padding-top: 56px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .advantage-list-item.advatage-block {
   width: 400px; 
@@ -196,6 +214,17 @@ opacity: 0.3;
   width: 1200px;
   height: 291px;
   text-align: center; 
+  padding-top: 57px;
+  padding-bottom: 0;
+  margin-bottom: -52px;
+}
+.call-to-action-title {
+  margin-top: 0;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "PT Sans";
 }
 .map {
   position: relative;
@@ -215,7 +244,16 @@ opacity: 0.3;
   background-color: #766357;
   width: 568px;
   height: 86px;
-  margin: 0;  
+  margin: 0;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+.arrival-info {
+  padding-top: 55px;
+  padding-right: 55px;
 }
 .advantage-img {
   display: block; 
